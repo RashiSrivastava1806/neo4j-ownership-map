@@ -1,0 +1,19 @@
+ENTITY-RESOLUTION REVIEW SUMMARY
+========================================
+
+Source records: 126658
+Duplicate-name groups: 3198
+Records included for review: 6997
+
+GROUP COUNTS BY REVIEW STATUS
+----------------------------------------
+COUNTRY_CONFLICT_REVIEW: 197
+DIRECT_PARENT_CONFLICT_REVIEW: 41
+IDENTIFIER_CONFLICT_REVIEW: 783
+INSUFFICIENT_IDENTIFIERS: 354
+PARENT_GROUP_CONFLICT_REVIEW: 285
+POSSIBLE_DUPLICATE_REVIEW: 1538
+
+IMPORTANT
+No source records were merged or deleted.
+Review statuses are screening signals, not proof that two records represent the same legal entity.
