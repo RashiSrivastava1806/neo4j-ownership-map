@@ -1,0 +1,16 @@
+DIRECT-PARENT RELATIONSHIP AUDIT
+========================================
+
+Total source records: 126658
+Records with a direct-parent value: 18808
+
+CLASSIFICATION COUNTS
+----------------------------------------
+AMBIGUOUS_PARENT_NAME: 2794
+POTENTIAL_SELF_PARENT: 8
+UNIQUE_NAME_MATCH: 16006
+
+INTERPRETATION
+UNIQUE_NAME_MATCH means the parent name matches one source record, not that ownership is independently verified.
+AMBIGUOUS_PARENT_NAME means multiple records match the parent name and require identity resolution.
+No ownership edges were created and no source data was modified.
