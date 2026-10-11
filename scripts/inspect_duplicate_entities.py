@@ -71,7 +71,7 @@ for name, records in list(duplicate_groups.items())[:20]:
 
     for index, row in enumerate(records, start=1):
         print(f"  Record {index}:")
-        print(f"    Entity: {row.get('Subsidiary Name (Clean', '')}")
+        print(f"    Entity: {row.get('Subsidiary Name (Clean)', '')}")
         print(f"    Business ID: {row.get('Business ID', '')}")
         print(f"    OpenCorporates: {row.get('OpenCorporates', '')}")
         print(f"    LEI: {row.get('LEI', '')}")
