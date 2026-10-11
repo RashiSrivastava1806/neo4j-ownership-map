@@ -1,0 +1,19 @@
+GRAPH DATA EXPORT SUMMARY
+========================================
+
+Source records: 126658
+Node records exported: 126658
+Candidate edges exported: 16006
+Ambiguous relationships for review: 2794
+
+CLASSIFICATION COUNTS
+----------------------------------------
+AMBIGUOUS_PARENT_REVIEW: 2794
+NO_DIRECT_PARENT_VALUE: 107850
+POTENTIAL_SELF_PARENT_EXCLUDED: 8
+UNIQUE_NAME_MATCH_CANDIDATE: 16006
+
+LIMITATIONS
+Each source record is represented as a separate node. Duplicate legal entities have not been merged.
+Candidate edges are based on a unique normalized parent-name match, not independent proof of ownership.
+No direct-parent edges are inferred from Parent MNE.
